@@ -50,6 +50,7 @@ body {
     width: 100%;
     border: 2px solid red;
     text-transform: uppercase;
+    gap: 1.5rem;
 }
 
 .item_menu{
@@ -60,6 +61,21 @@ body {
     display: flex;
     border: 2px solid blueviolet;
     width: 33.33%;
-    justify-content: start;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.alignement_centre{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 2px solid red;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.plus
+{
+   border: 2px solid yellow;
 }
 
