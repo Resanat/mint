@@ -12,7 +12,7 @@ body {
     color: #1a1a1a;
 }
 
-/* Header */
+/* Header nav */
 .main_header {
     display: flex;
     flex-direction: row;
@@ -25,10 +25,50 @@ body {
     background-color: rgb(230, 222, 222);
 }
 
+/* nav */
+.main_header ul {
+    border: 2px solid blue;
+    width: 100%;
+    padding: 0 3rem;
+    height: 4.5rem;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.main_header a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 1.5rem 1rem;
+}
+
+.main_header a:hover{
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#fcfafb;
+    padding: 1.5rem 1rem;
+}
+/* nav */
+
 .bloc_header, .bloc_footer {
     display: flex;
     width: 50%;
     border: 2px solid rgb(146, 0, 0);
+}
+
+.bloc_header_column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 2px solid rgb(146, 136, 0);
+}
+
+.bloc_header_item
+{
+    border: 3px solid springgreen;
 }
 
 /* aside */
