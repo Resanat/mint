@@ -32,7 +32,7 @@ body {
 }
 
 /* aside */
-.main_aside {
+.main_aside, .main_section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -44,7 +44,7 @@ body {
     background-color: rgb(230, 222, 222);
 }
 
-.travaux{
+.align1ligne{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -53,11 +53,11 @@ body {
     gap: 1.5rem;
 }
 
-.item_menu{
+.item_menu, .item_section{
     border: 2px solid yellowgreen;
 }
 
-.photo_travaux{
+.photo_travaux, .photo_article1{
     display: flex;
     border: 2px solid blueviolet;
     width: 33.33%;
@@ -79,3 +79,20 @@ body {
    border: 2px solid yellow;
 }
 
+.ligne_logo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 2px solid skyblue;
+    justify-content: space-around;
+}
+
+
+/* SECTION */
+.text{
+    width: 100%;
+}
+
+
+
+/* SECTON */
