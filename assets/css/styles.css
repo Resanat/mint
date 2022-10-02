@@ -57,7 +57,7 @@ body {
     border: 2px solid yellowgreen;
 }
 
-.photo_travaux, .photo_article1{
+.photo_travaux, .photo_article1, .photo_article2{
     display: flex;
     border: 2px solid blueviolet;
     width: 33.33%;
@@ -93,6 +93,20 @@ body {
     width: 100%;
 }
 
+.photo_article3{
+    display: flex;
+    border: 2px solid blueviolet;
+    width: 50%;
+    justify-content: space-between;
+    gap: 2rem;
+}
 
+.photo_article4{
+    display: flex;
+    border: 2px solid blueviolet;
+    width: 33.33%;
+    justify-content: space-around;
+    gap: 2rem;
+}
 
 /* SECTON */
