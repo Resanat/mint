@@ -14,8 +14,12 @@ body {
     background-repeat: repeat;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
 
-nav, header{
+nav{
     display: flex;
     background-color: rgb(230, 222, 222);
     max-width: 1120px;
@@ -23,11 +27,12 @@ nav, header{
 }
 
 nav .bloc_50_droit, nav .bloc_50_left{
+    display: flex;
     margin-top: 2rem;
     width: 50%;
     border: 2px solid black;
     height: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 
@@ -37,7 +42,7 @@ nav .bloc_50_droit, nav .bloc_50_left{
     border: 2px solid blue;
     width: 100%;
     padding: 0 3rem;
-    height: 4;
+    height: 4rem;
     display: flex;
     list-style-type: none;
     justify-content: space-between;
@@ -60,6 +65,8 @@ nav .bloc_50_droit, nav .bloc_50_left{
 }
 /* NAV */
 
+
+
 /* HEADER */
 header{
     display: flex;
@@ -80,6 +87,7 @@ header{
     height: 65px;
     font-size: 12px;
     line-height: 18px;
+    font-weight: 600;
     color: #000000;
 }
 
@@ -87,14 +95,16 @@ header{
     width: 210px;
     height: 48px;
     background-color: #ffe600;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .bloc_text_3{
     padding: 16px 28px 0 28px;
     font-size: 16px;
     text-transform: uppercase;
-    color: #1e1e1e;
-    font-weight: 500;
+    color: #000000;
+    font-weight: 600;
     font-family: "Montserrat";
 }
 
@@ -110,14 +120,17 @@ header{
 /* HEADER */
 
 
-aside, section{
+
+
+/* ASIDE */
+aside{
     border: 2px solid royalblue;
     background-color: rgb(230, 222, 222);
     max-width: 1120px;
     margin: auto;
 }
 
-/* ASIDE */
+
 .bloc_text_4{
     font-size: 42px;
     line-height: 80px;
@@ -167,6 +180,13 @@ aside, section{
 
 
 /* ASIDE */
+section{
+    border: 2px solid royalblue;
+    background-color: rgb(230, 222, 222);
+    max-width: 1120px;
+    margin: auto;
+}
+
 .align_one_line{
     display: flex;
     background-color: rgb(230, 222, 222);
@@ -210,6 +230,7 @@ aside, section{
     text-align: center;
     border: 2px solid greenyellow;
     width: 15%;
+    margin-top: 5rem;
 }
 
 .justify_center{
@@ -233,6 +254,17 @@ aside, section{
 
 
 /* SECTION */
+aside{
+    border: 2px solid royalblue;
+    background-color: rgb(230, 222, 222);
+    max-width: 1120px;
+    margin: auto;
+}
+
+.espace_one_line_5{
+margin-top: 5rem;
+}
+
 .item_column_2{
         border: 2px solid greenyellow;
         width: 50%;
@@ -301,6 +333,14 @@ input, textarea{
     color: black;
 }
 
+.bouton_envoyer{
+    width: 140px;
+    height: 48px;
+    background-color: #ffe600;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
 .align_column_reseaux{
     display: flex;
     flex-direction: row;
@@ -309,6 +349,7 @@ input, textarea{
     justify-content: center;
     border: 2px solid brown;
     gap: 50px;
+    margin-bottom: 4rem;
 }
 /* SECTION */
 
@@ -322,7 +363,6 @@ input, textarea{
 footer{
     display: flex;
     border: 2px solid royalblue;
-    background-color: rgb(230, 222, 222);
     max-width: 1184px;
     margin: auto;
 }
@@ -337,8 +377,8 @@ footer{
     max-width: calc(1120px + 8rem);
     margin: 0 auto;
     border: 2px solid black;
-    background-color: rgb(230, 222, 222);
-    width: 1184px;
+    background-color: #1e1e1e;
+        width: 1184px;
 }
 
 .bloc_footer {
@@ -351,25 +391,28 @@ footer{
 .contenu_footer1{
     display: flex;
     border: 2px solid blueviolet;
-    width: 15%;
+    width: 18%;
 }
 
 .contenu_footer2{
     display: flex;
     border: 2px solid blueviolet;
-    width: 85%;
+    color: white;
+    width: 82%;
 }
 
 .contenu_footer3{
     display: flex;
     border: 2px solid blueviolet;
-    width: 85%;
+    width: 90%;
+    color: white;
     justify-content: end;}
 
 .contenu_footer4{
     display: flex;
     border: 2px solid blueviolet;
-    width: 15%;
+    width: 10%;
+    justify-content: center;
 }
 
 
