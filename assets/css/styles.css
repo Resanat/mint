@@ -16,7 +16,7 @@ body {
 nav, header{
     display: flex;
     background-color: rgb(230, 222, 222);
-    width: 1120px;
+    max-width: 1120px;
     margin: auto;
 }
 
@@ -63,7 +63,7 @@ nav, header{
 }
 
 .bloc_text_2{
-    width: 544px;
+    width: auto;
     height: 65px;
     font-size: 12px;
     line-height: 24px;
@@ -100,7 +100,7 @@ nav, header{
 aside, section{
     border: 2px solid royalblue;
     background-color: rgb(230, 222, 222);
-    width: 1120px;
+    max-width: 1120px;
     margin: auto;
 }
 
@@ -157,7 +157,7 @@ aside, section{
 .align_one_line{
     display: flex;
     background-color: rgb(230, 222, 222);
-    width: 1120px;
+    max-width: 1120px;
     margin: auto;
     border: 2px solid black;
 }
@@ -188,6 +188,11 @@ aside, section{
     width: 31.5%;
 }
 
+.item_column_3_left{
+    border: 2px solid greenyellow;
+    width: 31.5%;
+}
+
 .item_column_6{
     text-align: center;
     border: 2px solid greenyellow;
@@ -214,16 +219,57 @@ aside, section{
 /* ASIDE */
 
 
-
-
+/* SECTION */
 .item_column_2{
         border: 2px solid greenyellow;
         width: 50%;
 }
 
+.bloc_text_5{
+    font-size: 28px;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #1e1e1e;
+    font-weight: 800;
+}
+
 .justify_between{
         justify-content: space-around;
 }
+
+.align_items{
+    align-items: center;
+}
+
+.photo_contenant{
+    position: relative;
+    text-align: left;
+}
+
+.prenom_sur_photo
+{
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: #ffe600;
+    width: 260px;
+    height: 60px;
+    color: black;
+    position: absolute;
+    top: 81%;
+}
+
+.mission_sur_photo
+{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 260px;
+    height: 60px;
+    color: white;
+    position: absolute;
+    top: 88%;
+}
+
+
 
 .align_one_line_50{
         width: 100%;
@@ -236,13 +282,20 @@ aside, section{
     line-height: 51px;
     color: black;
 }
+/* SECTION */
+
+
+
+
+
+
 
 
 footer{
     display: flex;
     border: 2px solid royalblue;
     background-color: rgb(230, 222, 222);
-    width: 1184px;
+    max-width: 1184px;
     margin: auto;
 }
 
@@ -257,7 +310,7 @@ footer{
     margin: 0 auto;
     border: 2px solid black;
     background-color: rgb(230, 222, 222);
-    width: 1220px;
+    width: 1184px;
 }
 
 .bloc_footer {
@@ -289,6 +342,8 @@ footer{
     border: 2px solid blueviolet;
     width: 15%;
 }
+
+
 /* FOOTER */
 
 
