@@ -153,11 +153,7 @@ aside, section{
 }
 
 
-
-
-
-
-
+/* ASIDE */
 .align_one_line{
     display: flex;
     background-color: rgb(230, 222, 222);
@@ -173,7 +169,7 @@ aside, section{
     width: 100%;
     justify-content: space-between;
     border: 2px solid brown;
-    gap: 20px;
+    gap: 15px;
 }
 
 .item_column_2bis{
@@ -189,7 +185,7 @@ aside, section{
 .item_column_3{
     text-align: center;
     border: 2px solid greenyellow;
-    width: 30%;
+    width: 31.5%;
 }
 
 .item_column_6{
@@ -203,8 +199,10 @@ aside, section{
 }
 
 .plus{
-    border: 2px solid yellow;
-    }
+    width: 130px;
+    background-color: #ffe600;
+    height: 30px;
+}
 
 .align_column_formulaire{
         display: flex;
@@ -213,7 +211,11 @@ aside, section{
         width: 100%;
         border: 2px solid brown;
 }
-    
+/* ASIDE */
+
+
+
+
 .item_column_2{
         border: 2px solid greenyellow;
         width: 50%;
